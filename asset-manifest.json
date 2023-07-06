@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Np-Universe/static/css/main.5e782ea4.css",
+    "main.js": "/Np-Universe/static/js/main.597966ad.js",
+    "index.html": "/Np-Universe/index.html",
+    "main.5e782ea4.css.map": "/Np-Universe/static/css/main.5e782ea4.css.map",
+    "main.597966ad.js.map": "/Np-Universe/static/js/main.597966ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e782ea4.css",
+    "static/js/main.597966ad.js"
+  ]
+}
