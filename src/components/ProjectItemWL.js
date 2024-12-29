@@ -1,10 +1,10 @@
 function ProjectItemWL(props) {
 
     return (
-        <div class="card mb-3 project-i text-light" >
+        <div class="card mb-3 project-i text-light" data-aos="fade-up">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src={props.img} class="img-fluid rounded-start" alt="..."/>
+      <img src={props.img} class="img-fluid rounded-start imgproj" alt="..."/>
     </div>
     <div class="col-md-8">
       <div class="card-body">

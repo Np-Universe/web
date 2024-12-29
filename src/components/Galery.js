@@ -4,14 +4,18 @@ import 'react-image-lightbox/style.css';
 
 const Gallery = () => {
   const images = [
-    { id: 1, src: './images/my anjay.jpg', alt: 'Kon' },
-    { id: 2, src: './images/IMG_20230529_192928.jpg', alt: 'Ngoding di Kertas???' },
-    { id: 3, src: './images/IMG_20230608_175838_2.jpg', alt: 'Car1' },
-    { id: 4, src: './images/IMG_20230613_174718.jpg', alt: 'Car2' },
-    { id: 5, src: './images/IMG_20230502_152114_1.jpg', alt: 'Daun Pohon' },
-    { id: 6, src: './images/IMG_20230508_002855_1.jpg', alt: 'Lampu Controller'},
-    { id: 7, src: './images/IMG_20230620_155156.jpg', alt: 'Mouse'},
-    { id: 8, src: './images/Picsart_23-06-24_17-08-20-888.jpg', alt: 'Become a JOJO'}
+    { id: 1, src: './images/my anjay.jpg', alt: 'Kon', loading: 'blur' },
+    { id: 2, src: './images/IMG_20230529_192928.jpg', alt: 'Ngoding di Kertas???', loading: 'blur' },
+    { id: 3, src: './images/IMG_20230608_175838_2.jpg', alt: 'Car1', loading: 'blur' },
+    { id: 4, src: './images/IMG_20230613_174718.jpg', alt: 'Car2', loading: 'blur' },
+    { id: 5, src: './images/IMG_20230502_152114_1.jpg', alt: 'Daun Pohon', loading: 'blur' },
+    { id: 6, src: './images/IMG_20230508_002855_1.jpg', alt: 'Lampu Controller', loading: 'blur' },
+    { id: 7, src: './images/IMG_20230620_155156.jpg', alt: 'Mouse', loading: 'blur' },
+    { id: 8, src: './images/Picsart_23-06-24_17-08-20-888.jpg', alt: 'Become a JOJO', loading: 'blur' },
+    { id: 9, src: './images/N69.jpg', alt: 'N69', loading: 'blur' },
+    { id: 10, src: './images/N69 FCK.jpg', alt: 'N69 FVCK', loading: 'blur' },
+    { id: 11, src: './images/kodok acumalaka sad.jpg', alt: 'Kodok Acumalaka Sad', loading: 'blur' },
+    { id: 12, src: './images/skinnyn69.jpg', alt: 'SkinnyN69', loading: 'blur' }
   ];
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -29,8 +33,11 @@ const Gallery = () => {
 
   return (
     <div className="gallery-bg" id='gallery'>
-      <h1 className="gallery-font">Gallery</h1>
-      <div className="gallery">
+      <div data-aos="zoom-in-up">
+        <h1 className="gallery-font">Gallery</h1>
+          <h5 className="gallery-font">Picture</h5>
+      </div>
+      <div className="gallery" data-aos="zoom-out">
         {images.map((image, index) => (
           <img
             key={image.id}

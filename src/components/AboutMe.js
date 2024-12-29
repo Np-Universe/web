@@ -17,25 +17,26 @@ function AboutMe() {
 
   return (
     <div className="section aboutme" id="aboutme">
-      <div className="row align-items-center">
+      <div className="row align-items-center avatarb aboutme-bg">
         <div className="col-5 text-center">
-          <img
-            className="avatar-a"
-            src="https://i.ibb.co/M8C39dP/web-intro-my-anjay.jpg"
+          <div>
+            <img
+            className="avatar-a" data-aos="fade-up"
+            src="./images/WIN_20240203_19_42_19_Pro copyaa.jpg"
             onClick={() => openLightbox(0)}
           />
+          </div>
         </div>
-        <div className="col-5 aboutme-t" id="aboutme">
+        <div className="col-5 aboutme-t" data-aos="fade-left">
           <h1>About Me</h1>
           <p>
-            "Saya adalah seorang manusia yang sangat tampan dan keren, dan mempunyai kelebihan tidak terkena dampak apa-apa ketika tidak melakukan kegiatan apapun selama 24 jam.
-            Saya juga seorang gamer, gamer tampan lebih tepatnya. Game yang sering saya mainkan antara lain Gta V, Minecraft, Fortnite."
+            "Yooow nama gw Andreas, Nauvel Andreas Amaluih, gw lahir di Jombang Jawa Timur 21-November-2006, hobi gw Gaming, yaa basic gw emang kek anak muda nolep kebanyakan yaitu ngeGame. Selain ngeGame gw juga punya hobi coding dikit dikit, dan bahasa pemrograman yang pernah gw coba Java Script, C++(Arduino), Python, ama Pascal. Dah sih keknya gitu doang ae buat tab About Me, gatau mau ngetik apa lagi."
           </p>
         </div>
       </div>
       {isLightboxOpen && (
         <Lightbox
-          mainSrc='https://i.ibb.co/M8C39dP/web-intro-my-anjay.jpg'
+          mainSrc='./images/WIN_20240203_19_42_19_Pro copyaa.jpg'
           onCloseRequest={closeLightbox}
           />
       )}
