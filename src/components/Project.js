@@ -7,7 +7,7 @@ function Project({ isAdmin }) {
     const [projects, setProjects] = useState([
         {
             img: "https://i.ibb.co/hsppS1H/logo-bot-wa.jpg",
-            judul: "Bot WA (UPDATED)",
+            judul: "Bot WA (DISCONTINUE)",
             deskripsi: "Buat gabut gabutan aja oke nih bang:) (ada kode nuklirnya juga lhooo :o)",
             date: "21-11-2022",
             href: "https://api.whatsapp.com/send/?phone=6285136822818&text&type=phone_number&app_absent=0",
@@ -24,24 +24,24 @@ function Project({ isAdmin }) {
             deskripsi: "Kukira saya akan menjadi anime seutuhnya, setelah setengah wajah saya menjadi anime, TERNYATA!!! saya hanya menjadi icon website saya sendiri (icon yang lama pake logo ini cuy...). tch mendoksai😡😡🤬🤬.",
             date: "10-01-2023",
         },
-        {
-            img: "https://th.bing.com/th/id/OIP.9Rp8v9Va_rpb6Kk8z6OFhgHaEK?pid=ImgDet&rs=1",
-            judul: "Finally",
-            deskripsi: "Finally I have a girlfriend:)",
-            date: "27-05-2023",
-        },
+        // {
+        //     img: "https://th.bing.com/th/id/OIP.9Rp8v9Va_rpb6Kk8z6OFhgHaEK?pid=ImgDet&rs=1",
+        //     judul: "Finally",
+        //     deskripsi: "Finally I have a girlfriend:)",
+        //     date: "27-05-2023",
+        // },
         {
             img: "https://i.ibb.co/QkBhBLF/IMG-20230601-071045-1.jpg",
             judul: "Kereta",
             deskripsi: "Foto kereta random, difoto dengan kamera hp pake settingan ngasal asal cekrek tapi menurut gw bagus jadi gw masukin ke blog gw (hihihiha), dan ini juga foto dari pengalaman gw keluar rumah bareng temen setelah sekian lama meng-nolep akhirnya keluar rumah. Dah gitu ae:)",
             date: "01-06-2023",
         },
-        {
-            img: "./images/OIP.jpg",
-            judul: "We Break Up",
-            deskripsi: "Kontol",
-            date: "11-08-2023",
-        },
+        // {
+        //     img: "./images/OIP.jpg",
+        //     judul: "We Break Up",
+        //     deskripsi: "Kontol",
+        //     date: "11-08-2023",
+        // },
         {
             img: "./images/logo channel justenpi.jpg",
             judul: "Logo Baru Np",
