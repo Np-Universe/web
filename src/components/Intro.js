@@ -139,7 +139,7 @@ function Intro() {
             <h1 className='animate__animated animate__fadeInUp'>Andreas</h1>
             <p className='animate__animated animate__fadeInUp'>Raja Iblis 😈</p>
             <div className="socialmedia animate__animated animate__fadeInUp">
-              <a target="_blank" href="https://www.instagram.com/justenpi/">
+              <a target="_blank" href="https://www.instagram.com/n1x0ra/">
                 <i className="bi bi-instagram"></i>
               </a>
               <a target="_blank" href="http://bit.ly/3Exkpqz">
